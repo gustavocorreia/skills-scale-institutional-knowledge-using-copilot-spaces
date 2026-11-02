@@ -1,0 +1,22 @@
+# OctoAcme Project Management Docs
+
+This README is the entry point for OctoAcme's project management guidance. It brings together the project lifecycle, roles, communication rhythms, and quality expectations that guide how work is planned and delivered.
+
+## Overview of OctoAcme project management processes
+
+OctoAcme projects move through initiation, planning, execution and tracking, release, and retrospective. Initiation starts by validating the business need, identifying stakeholders, defining measurable outcomes, and creating a lightweight project one-pager with goals, success metrics, timeline, risks, and resource needs. Once the initiative is approved, planning turns it into a prioritized, estimated backlog with acceptance criteria, a Definition of Done, assigned responsibilities, dependency tracking, and agreed milestones and release plans.
+
+During execution, work is managed with a project board and delivered in small, testable increments. The Project Manager coordinates schedules, risks, dependencies, and communication; the Product Manager or Product Lead defines outcomes, prioritizes the backlog, and measures success; developers implement and test changes; QA/testing validates feature quality and acceptance criteria; and stakeholders provide input and approvals. Teams coordinate through daily standups, weekly delivery syncs, end-of-sprint or milestone reviews, and regular PM–Product alignment, with stakeholder updates on an agreed cadence. Risks and blockers are reviewed regularly and escalated from the team to the PM, Product Lead, and sponsor as needed, while security incidents follow a dedicated runbook.
+
+Quality assurance is embedded throughout the process. Teams define acceptance criteria and a Definition of Done, write unit tests for new logic, add integration and end-to-end smoke tests where appropriate, and run tests, linting, and security scans in CI. Manual QA is used when necessary to confirm feature acceptance. Before release, the team confirms all acceptance criteria are met, prepares a rollback or mitigation plan, validates in staging, deploys, and performs post-deployment verification. After sprints, releases, milestones, or incidents, retrospectives capture learning and translate it into a small set of owned, time-bound improvement actions.
+
+## Process documents
+
+- [Project Management Overview](octoacme-project-management-overview.md)
+- [Project Initiation Guide](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Execution & Tracking](octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](octoacme-roles-and-personas.md)
